@@ -1,3 +1,13 @@
+/* global Module, MMM-Wordpress */
+
+/* Magic Mirror
+ * Module: MMM-Wordpress
+ *
+ * By Tobias Buss
+ * MIT Licensed.
+ */
+
+
 Module.register('MMM-Wordpress', {
   defaults: {
     updateInterval: 600000, // 10 minutes
