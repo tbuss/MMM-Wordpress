@@ -1,0 +1,25 @@
+{
+    "name": "mmm-wordpress",
+    "version": "1.0.0",
+    "description": "Magic Mirror Module for displaying Wordpress posts",
+    "main": "MMM-Wordpress.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tbuss/MMM-Wordpress.git"
+    },
+    "keywords": [
+      "magic",
+      "mirror",
+      "wordpress"
+    ],
+    "author": "t.buss",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tbuss/MMM-Wordpress/issues"
+    },
+    "homepage": "https://github.com/tbuss/MMM-Wordpress#readme"
+  }
+  
