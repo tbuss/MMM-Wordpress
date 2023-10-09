@@ -8,7 +8,7 @@
  */
 
 
-Module.register('MMM-WordPress', {
+Module.register('MMM-Wordpress', {
     defaults: {
       updateInterval: 600000, // 10 minutes
       url: 'YOUR_WORDPRESS_API_URL', // replace with your WordPress API endpoint
