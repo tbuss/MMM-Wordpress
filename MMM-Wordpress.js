@@ -12,7 +12,7 @@ Module.register('MMM-Wordpress', {
     updateInterval: 600000, // 10 minutes
     url: 'YOUR_WORDPRESS_API_URL', // replace with your WordPress API endpoint
     numberOfPosts: 5, // number of posts to display
-      posts: 'posts', //Endpoint ("posts" for normal posts, can be changed to custom post type)
+    posts: 'posts', //Endpoint ("posts" for normal posts, can be changed to custom post type)
   },
 
   start: function() {
@@ -29,7 +29,7 @@ Module.register('MMM-Wordpress', {
     const numberOfPosts = this.config.numberOfPosts;
 
     //hier müssen die posts noch rein!
-    this.sendSocketNotification('GET_POSTS', { url, numberOfPosts });
+    this.sendSocketNotification('GET_POSTS', { url, posts, numberOfPosts });
   },
 
   socketNotificationReceived: function(notification, payload) {
