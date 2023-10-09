@@ -7,7 +7,9 @@ module.exports = NodeHelper.create({
   },
 
   socketNotificationReceived: function(notification, payload) {
+    console.log('Notification!');
     if (notification === 'GET_POSTS') {
+      console.log('Notification: GET_POSTS');
       const { url, numberOfPosts } = payload;
       const apiUrl = `${url}/wp-json/wp/v2/posts?per_page=${numberOfPosts}`;
 
