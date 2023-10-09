@@ -47,7 +47,8 @@ Module.register('MMM-Wordpress', {
       for (let i = 0; i < posts.length; i++) {
         const post = posts[i];
         const postElement = document.createElement('div');
-        postElement.innerHTML = `<h2>${this.stripTags(post.title.rendered)}</h2><p>${this.stripTags(post.excerpt.rendered)}</p>`;
+        //postElement.innerHTML = `<h2>${this.stripTags(post.title.rendered)}</h2><p>${this.stripTags(post.excerpt.rendered)}</p>`;
+        postElement.innerHTML = `<h2>${this.stripTags(post.title.rendered)}</h2><p>${this.stripTags(post.content.rendered)}</p>`;
         wrapper.appendChild(postElement);
       }
     } else {
