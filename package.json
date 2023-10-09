@@ -20,6 +20,9 @@
     "bugs": {
       "url": "https://github.com/tbuss/MMM-Wordpress/issues"
     },
-    "homepage": "https://github.com/tbuss/MMM-Wordpress#readme"
+    "homepage": "https://github.com/tbuss/MMM-Wordpress#readme",
+    "dependencies": {
+        "request": "latest"
+      }
   }
   
