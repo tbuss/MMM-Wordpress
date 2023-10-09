@@ -6,7 +6,7 @@
  * By Tobias Buss
  * MIT Licensed.
  */
-
+const NodeHelper = require('./node_helper.js');
 
 Module.register('MMM-Wordpress', {
   defaults: {
